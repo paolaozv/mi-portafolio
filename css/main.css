@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+h3 {
+    margin: 0;
+}
+
+.pacific {
+    font-family: "Pacifico", cursive;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.lato {
+    font-family: "Lato", sans-serif;
+}
+
+.morado {
+    color: #593282;
+}
+
+.blanco {
+    color: #FFF;
+}
+
+.negro {
+    color: #000;
+}
+
+.titulos {
+    font-size: 2.2em;
+}
+
+/* Portada */
+
+.title {
+    position: absolute;
+    top: 11em;
+    left: 25em;
+}
+
+.title h1 {
+    font-size: 5.2em;
+}
+
+.title .study {
+    font-size: 2.8em;
+}
+
+.header {
+    position: relative;
+    height: auto;
+}
+
+.nav-corner {
+    width: 100%;
+    height: 5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-corner:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #593282;
+    z-index: -1;
+    bottom: : 0;
+    transform-origin: left bottom;
+    transform: skewY(-8deg);
+}
+
+.menu {
+    font-size: 1.8em;
+    color: #FFF;
+}
+
+.content-menu {
+    padding: 1.4em;
+}
+
+.name {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+.name:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #593282;
+    z-index: -4;
+    top: 0;
+    transform-origin: left bottom;
+    transform: skewY(-8deg);
+}
+
+/* About */
+
+.about {
+    z-index: -5;
+}
+
+.image{
+    background-image: url("../img/perfil1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 55px 13px rgba(33,30,30,0.8);
+}
+
+.pd-top {
+    padding-top: 3.5em;
+}
+
+.descrip {
+    font-size: 1.4em;
+    padding-top: 0.8em;
+}
+
+.pd-l {
+    padding: 0 3em;
+}
+
+.pin {
+    padding-top: 1.5em;
+}
+
+.pines {
+    width: 20%;
+}
+
+.badges {
+    margin-bottom: 1.2em
+}
+
+.pad-top {
+    padding-top: 0.5em;
+}
+
+/* Skills */
+
+.skills {
+    width: 100%;
+    position: relative;
+    padding-top: 2.4em;
+}
+
+.habilidades span {
+    display: inline-block;
+    font-size: 5em;
+    padding: 0.3em;
+}
+
+.habilidades span:hover {
+    background: #593282; 
+    color: #FFF; 
+}

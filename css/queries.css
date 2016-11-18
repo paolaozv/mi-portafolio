@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+
+	.content-menu {
+		width: 100%;
+	}
+
+	.title {
+	    top: 4.5em;
+	    left: 2em;
+	}
+
+	.title h1 {
+    	font-size: 3em;
+	}
+
+	.title .study {
+    	font-size: 1.8em;
+	}
+
+	.name {
+		height: 55vh;
+	}
+
+	.image {
+		width: 180px;
+    	height: 180px;
+	}
+
+	.descrip {
+    	font-size: 1em;
+	}
+
+	.pd-top {
+		padding-top: 1.5em;
+	}
+
+	.pines {
+		width: 27%;
+	}
+
+	.pad-top-q {
+		padding-top: 1.2em;
+	}
+
+	.titulos {
+    	font-size: 1.8em;
+	}
+
+}
+
+@media (max-width: 991px) {
+	
+}
