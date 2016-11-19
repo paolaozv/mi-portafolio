@@ -47,11 +47,11 @@
 	}
 
 	.top {
-		padding-top: 2.5em;
+		padding-top: 4.5em;
 	}
 
 	.skills {
-		padding-top: 2.5em;
+		padding-top: 4em;
 		height: 52vh;
 	}
 
@@ -69,7 +69,7 @@
 	}
 
 	.projects {
-	    height: 285vh;
+	    height: 292vh;
 	}
 
 	.icon {
@@ -81,7 +81,7 @@
 	}
 
 	.height {
-		height: 353vh;
+		height: 360vh;
 	}
 
 	.decoration li a {
@@ -130,7 +130,7 @@
 	}
 
 	.pdtop {
-    	padding-top: 2em;
+    	padding-top: 3em;
 	}
 	
 	.icono-1 {
