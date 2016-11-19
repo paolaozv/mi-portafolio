@@ -5,7 +5,7 @@
 	}
 
 	.title {
-	    top: 4.5em;
+	    top: 6em;
 	    left: 2em;
 	}
 
@@ -18,7 +18,7 @@
 	}
 
 	.name {
-		height: 55vh;
+		height: 65vh;
 	}
 
 	.image {
@@ -46,6 +46,104 @@
     	font-size: 1.8em;
 	}
 
+	.top {
+		padding-top: 2.5em;
+	}
+
+	.skills {
+		padding-top: 2.5em;
+		height: 52vh;
+	}
+
+	.habilidades .hvr-pop {
+	    font-size: 3em;
+	    padding: 0.1em;
+	}
+
+	.pd-top-hab {
+		padding-top: 1em;
+	}
+
+	.sub-skills {
+    	font-size: 0.8em;
+	}
+
+	.projects {
+	    height: 285vh;
+	}
+
+	.icon {
+		font-size: 2em;
+	}
+
+	.ocultar {
+		display: none;
+	}
+
+	.height {
+		height: 353vh;
+	}
+
+	.decoration li a {
+	    font-size: 2em;
+	}
+
+	.icon-in {
+	    width: 42%;
+	}
+
+	.icon-git {
+	    width: 62%;
+	}
+
+	.remove {
+		font-size: 2em;
+	}
+
+	.contact {
+    	font-size: 2.5em;
+	}
+
+	.mail {
+		width: 20%;
+	}
+
+	.correo {
+		text-align: center;
+		padding-top: 2em;
+	}
+
+	.pd-fot {
+ 	   padding-top: 3em;
+	}
+
+	.right {
+		text-align: center;
+	}
+
+	.left {
+		text-align: center;
+	}
+
+	.contacto {
+		height: 70vh;
+	}
+
+	.pdtop {
+    	padding-top: 2em;
+	}
+	
+	.icono-1 {
+	    width: 18%;
+	}
+
+	.icono-2 {
+	    width: 13%;
+	}
+
+	.icono-3 {
+	    width: 12%;
+	}
 }
 
 @media (max-width: 991px) {

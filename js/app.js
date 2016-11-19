@@ -25,7 +25,6 @@ var cargarPagina = function() {
     $("#liCinco").click(menuOcultar);
     $("#js").click(javascript);
     $("#html").click(html);
-    $("#mobile").click(mobile);
 };
 
 $(document).ready(cargarPagina);
@@ -40,18 +39,12 @@ var menuOcultar = function() {
 
 var javascript = function() {
     $("#htmlCss").hide("slow");
-    $("#app").hide("slow");
     $("#javascript").show("slow");
+    $("#projects").removeClass("height");
 };
 
 var html = function() {
     $("#javascript").hide("slow");
-    $("#app").hide("slow");
     $("#htmlCss").show("slow");
-};
-
-var mobile = function() {
-    $("#javascript").hide("slow");
-    $("#htmlCss").hide("slow");
-    $("#app").show("slow");
+    $("#projects").addClass("height");
 };

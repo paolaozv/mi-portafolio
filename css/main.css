@@ -34,6 +34,21 @@ h3 {
     font-size: 2.2em;
 }
 
+.icono-1 {
+    width: 11%;
+    margin-right: 0.5em;
+}
+
+.icono-2 {
+    width: 6%;
+    margin-right: 0.5em;
+}
+
+.icono-3 {
+    width: 4.8%;
+    margin-right: 0.5em;
+}
+
 /* Portada */
 
 .title {
@@ -157,17 +172,250 @@ h3 {
 
 .skills {
     width: 100%;
+    height: 90vh;
     position: relative;
-    padding-top: 2.4em;
+    padding-top: 4.4em;
 }
 
-.habilidades span {
+.habilidades {
+    margin-bottom: 1.2em;
+}
+
+.habilidades .hvr-pop {
     display: inline-block;
-    font-size: 5em;
-    padding: 0.3em;
+    font-size: 6em;
+    padding: 0.2em;
 }
 
-.habilidades span:hover {
+.habilidades .hvr-pop:hover {
     background: #593282; 
-    color: #FFF; 
+    color: #FFF;
+}
+
+.pd-top-hab {
+    padding-top: 2.5em;
+}
+
+.sub-skills {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Proyectos */
+
+.projects {
+    height: 140vh;
+    width: 100%;
+    position: relative;
+}
+
+.oculto {
+    display: none;
+}
+
+.top {
+    padding-top: 4em;
+}
+
+.boton {
+    background-color: #593282;
+    font-family: "Lato", sans-serif;
+}
+
+.boton:hover {
+    color: #FFF;
+}
+
+.projects .top h3 {
+    margin-bottom: 0.8em;
+}
+
+.pd-work {
+    padding-top: 2.5em;
+}
+
+.shadow {
+    box-shadow: 0px 9px 5px 0px rgba(189,183,189,1);
+    width: 90%;
+    position: relative;
+}
+
+.work {
+    width: 100%;
+}
+
+.tamanio-w {
+    width: 100%;
+}
+
+.code {
+    background-color: #593282;
+}
+
+.code:hover {
+    color: #FFF;
+}
+
+.info {
+    padding: 1em;
+}
+
+.icon {
+    font-size: 2.5em;
+    color: #593282;
+}
+
+.absolute {
+    position: absolute;
+    right: 1.2em;
+}
+
+.absolute-dos {
+    position: absolute;
+    right: 4em;
+}
+
+.absolute-tres {
+    position: absolute;
+    right: 7em;
+}
+
+/* Footer */
+
+.contacto {
+    background: linear-gradient(45deg, rgba(89,50,130,1) 0%, rgba(89,50,130,1) 38%, rgba(135,16,97,1) 76%, rgba(135,16,97,1) 100%);
+    position: relative;
+    height: 48vh;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.pdtop {
+    padding-top: 4em;
+}
+
+.contacto h3 {
+    margin: 0;
+}
+
+.contact {
+    font-size: 3.5em;
+}
+
+.cv {
+    background-color: #FFF;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+}
+
+.tamanio {
+    font-size: 1.5em;
+}
+
+.tamanio:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.mail {
+    width: 10%;
+}
+
+.icon-footer {
+    width: 28%;
+}
+
+.icon-github {
+    width: 100%;
+    margin-left: -4em;
+}
+
+.correo {
+    padding-top: 1.5em;
+}
+
+.pd-fot {
+    padding-top: 3em;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+/* Menú */
+
+.menu:hover  {
+    color: #DE4571;
+}
+
+.desplegable {
+    height: 100vh;
+    width: 100%;
+    background-color: #593282;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    overflow-y: hidden;
+}
+
+.remove {
+    font-size: 2.8em;
+    top: 0.5em;
+    right: 0.5em;
+    position: absolute;
+}
+
+.lista {
+    padding-top: 5em;
+}
+
+.lista .decoration {
+    margin: 0;
+    padding: 0;
+}
+
+.decoration li {
+    list-style: none;
+    margin-bottom: 1.2em;
+}
+
+.decoration li a {
+    color: #FFF;
+    font-size: 3em;
+}
+
+.decoration li a:hover {
+    text-decoration: none;
+    color: #DE4571;
+}
+
+.icon-in {
+    width: 55%;
+}
+
+.icon-git {
+    width: 75%;
+}
+
+.redes {
+    padding-top: 2em;
+}
+
+.puntos {
+    font-size: 2.8em;
+}
+
+.remove:hover {
+    color: #DE4571;
 }
