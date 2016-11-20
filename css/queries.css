@@ -1,11 +1,11 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 	.content-menu {
 		width: 100%;
 	}
 
 	.title {
-	    top: 6em;
+	    top: 12em;
 	    left: 2em;
 	}
 
@@ -18,7 +18,7 @@
 	}
 
 	.name {
-		height: 65vh;
+		height: 100vh;
 	}
 
 	.image {
@@ -146,6 +146,100 @@
 	}
 }
 
-@media (max-width: 991px) {
+/* @media (min-width: 992px) {
 	
-}
+	.title {
+	    top: 13em;
+	    left: 6em;
+	}
+
+	.title h1 {
+	    font-size: 4.5em;
+	}
+
+	.title .study {
+    	font-size: 2.5em;
+	}
+
+	.image {
+		width: 270px;
+    	height: 270px;
+	}
+
+	.icono-1 {
+		width: 18%;
+	}
+
+	.icono-2 {
+		width: 10%;
+	}
+
+	.icono-3 {
+		width: 8%;
+	}
+
+	.habilidades .hvr-pop {
+	    font-size: 4em;
+	}
+
+	.top {
+		padding-top: 0em;
+	}
+
+	.skills {
+		padding-top: 6em;
+		height: 86vh;
+	}
+
+	.projects {
+		height: 312vh;
+	}
+
+	.shadow {
+		width: 65%;
+	}
+
+	.contacto {
+		height: 47vh;
+	}
+
+	.right {
+	    text-align: right;
+	}
+
+	.left {
+	    text-align: left;
+	}
+
+	.left-v {
+		text-align: left;
+	}
+
+	.decoration li a {
+	    font-size: 2.5em;
+	}
+
+	.remove {
+	    font-size: 2.5em;
+	}
+
+	.height {
+		height: 368vh;
+	}
+
+	.titulo {
+		font-size: 1.9em;
+	}
+
+	.descrip {
+		font-size: 1em;
+	}
+
+	.pad-top {
+	    padding-top: 1.5em;
+	}
+
+	.mail {
+		width: 15%;
+	}
+} */
