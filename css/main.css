@@ -157,7 +157,7 @@ h3 {
 }
 
 .pines {
-    width: 20%;
+    width: 16%;
 }
 
 .badges {
@@ -172,7 +172,7 @@ h3 {
 
 .skills {
     width: 100%;
-    height: 90vh;
+    height: 83vh;
     position: relative;
     padding-top: 6em;
 }
@@ -183,8 +183,8 @@ h3 {
 
 .habilidades .hvr-pop {
     display: inline-block;
-    font-size: 6em;
-    padding: 0.2em;
+    font-size: 5em;
+    padding: 0.15em;
 }
 
 .habilidades .hvr-pop:hover {
