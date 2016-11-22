@@ -29,13 +29,14 @@ var cargarPagina = function() {
 
 $(document).ready(cargarPagina);
 
+var menuOcultar = function() {
+    $(".desplegable").hide("slow");
+};
+
 var menu = function() {
     $(".desplegable").show("slow");
 };
 
-var menuOcultar = function() {
-    $(".desplegable").hide("slow");
-};
 
 var javascript = function() {
     $("#htmlCss").hide("slow");
