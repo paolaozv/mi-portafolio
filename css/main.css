@@ -84,7 +84,7 @@ h3 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(89, 50, 130, 0.7);
+    background-color: rgba(89, 50, 130, 0.8);
     z-index: -1;
     bottom: : 0;
     transform-origin: left bottom;
@@ -204,7 +204,7 @@ h3 {
 /* Proyectos */
 
 .projects {
-    height: 149vh;
+    height: 157vh;
     width: 100%;
     position: relative;
 }
