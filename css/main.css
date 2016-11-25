@@ -19,7 +19,7 @@ h3 {
 }
 
 .morado {
-    color: #593282;
+    color: #4B138A;
 }
 
 .blanco {
@@ -49,13 +49,11 @@ h3 {
     margin-right: 0.5em;
 }
 
-/* Portada */
-
-.title {
-    position: absolute;
-    top: 11em;
-    left: 25em;
+.inline {
+    display: inline-block;
 }
+
+/* Portada */
 
 .title h1 {
     font-size: 5.2em;
@@ -67,7 +65,11 @@ h3 {
 
 .header {
     position: relative;
-    height: auto;
+    height: 100vh;
+    background-image: url("../img/fondo1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nav-corner {
@@ -84,7 +86,10 @@ h3 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(89, 50, 130, 0.8);
+    background-image: url("../img/fondo1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: -1;
     bottom: : 0;
     transform-origin: left bottom;
@@ -101,30 +106,15 @@ h3 {
 }
 
 .name {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: -3;
-}
-
-.name:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #593282;
-    z-index: -4;
-    top: 0;
-    transform-origin: left bottom;
-    transform: skewY(-8deg);
+    padding-top: 13em;
 }
 
 /* About */
 
 .about {
     z-index: -5;
+    height: 100vh;
+    padding-top: 4em;
 }
 
 .image{
@@ -136,7 +126,7 @@ h3 {
     height: 420px;
     border-radius: 50%;
     margin: 0 auto;
-    box-shadow: inset 0px 0px 55px 13px rgba(33,30,30,0.8);
+    box-shadow: inset 0px 0px 55px 13px rgba(33, 30, 30, 0.8);
 }
 
 .pd-top {
@@ -172,7 +162,7 @@ h3 {
 
 .skills {
     width: 100%;
-    height: 83vh;
+    height: 100vh;
     position: relative;
     padding-top: 6em;
 }
@@ -188,7 +178,7 @@ h3 {
 }
 
 .habilidades .hvr-pop:hover {
-    background: #593282; 
+    background: #4B138A; 
     color: #FFF;
 }
 
@@ -218,7 +208,7 @@ h3 {
 }
 
 .boton {
-    background-color: #593282;
+    background-color: #4B138A;
     font-family: "Lato", sans-serif;
 }
 
@@ -235,7 +225,7 @@ h3 {
 }
 
 .shadow {
-    box-shadow: 0px 9px 5px 0px rgba(189,183,189,1);
+    box-shadow: 0px 9px 5px 0px rgba(189, 183, 189, 1);
     width: 90%;
     position: relative;
 }
@@ -249,7 +239,7 @@ h3 {
 }
 
 .code {
-    background-color: #593282;
+    background-color: #4B138A;
 }
 
 .code:hover {
@@ -262,7 +252,7 @@ h3 {
 
 .icon {
     font-size: 2.5em;
-    color: #593282;
+    color: #4B138A;
 }
 
 .absolute {
@@ -283,7 +273,7 @@ h3 {
 /* Footer */
 
 .contacto {
-    background: linear-gradient(45deg, rgba(89,50,130,1) 0%, rgba(89,50,130,1) 38%, rgba(135,16,97,1) 76%, rgba(135,16,97,1) 100%);
+    background: linear-gradient(45deg, rgba(75, 19, 138, 1) 0%, rgba(199, 6, 61, 1) 100%);
     position: relative;
     height: 48vh;
 }
@@ -356,13 +346,13 @@ canvas {
 /* Menú */
 
 .menu:hover  {
-    color: #DE4571;
+    color: #C7063D;
 }
 
 .desplegable {
     height: 100vh;
     width: 100%;
-    background-color: #593282;
+    background-color: #4B138A;
     position: fixed;
     z-index: 5;
     top: 0;
@@ -397,7 +387,7 @@ canvas {
 
 .decoration li a:hover {
     text-decoration: none;
-    color: #DE4571;
+    color: #C7063D;
 }
 
 .icon-in {
@@ -417,5 +407,5 @@ canvas {
 }
 
 .remove:hover {
-    color: #DE4571;
+    color: #C7063D;
 }

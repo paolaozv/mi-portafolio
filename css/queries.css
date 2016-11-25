@@ -4,11 +4,6 @@
 		width: 100%;
 	}
 
-	.title {
-	    top: 12em;
-	    left: 2em;
-	}
-
 	.title h1 {
     	font-size: 3em;
 	}
@@ -51,8 +46,8 @@
 	}
 
 	.skills {
-		padding-top: 4em;
-		height: 52vh;
+		padding-top: 14em;
+		height: 78vh;
 	}
 
 	.habilidades .hvr-pop {
@@ -147,11 +142,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px){
-	
-	.title {
-	    top: 13em;
-	    left: 6em;
-	}
 
 	.title h1 {
 	    font-size: 4.5em;
@@ -162,8 +152,8 @@
 	}
 
 	.image {
-		width: 270px;
-    	height: 270px;
+		width: 320px;
+    	height: 320px;
 	}
 
 	.icono-1 {
@@ -188,11 +178,11 @@
 
 	.skills {
 		padding-top: 6em;
-		height: 86vh;
+		height: 100vh;
 	}
 
 	.projects {
-		height: 312vh;
+		height: 363vh;
 	}
 
 	.shadow {
@@ -224,7 +214,7 @@
 	}
 
 	.height {
-		height: 368vh;
+		height: 430vh;
 	}
 
 	.titulo {
@@ -232,7 +222,7 @@
 	}
 
 	.descrip {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 
 	.pad-top {
@@ -241,5 +231,9 @@
 
 	.mail {
 		width: 15%;
+	}
+
+	.pines {
+		width: 20%;
 	}
 }
