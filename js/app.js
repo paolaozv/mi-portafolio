@@ -25,6 +25,7 @@ var cargarPagina = function() {
     $("#liCinco").click(menuOcultar);
     $("#js").click(javascript);
     $("#html").click(html);
+    $("#down").click(down);
 };
 
 $(document).ready(cargarPagina);
@@ -48,4 +49,10 @@ var html = function() {
     $("#javascript").hide("slow");
     $("#htmlCss").show("slow");
     $("#projects").addClass("height");
+};
+
+var down = function(e) {
+    e.preventDefault();
+    $("html, body").animate({ 
+        scrollTop: $($(this).attr("href")).offset().top}, 500, "linear");
 };

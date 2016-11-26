@@ -65,20 +65,17 @@ h3 {
 
 .header {
     position: relative;
+    background-color: #4B138A;
     height: 100vh;
-    background-image: url("../img/fondo1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .nav-corner {
     width: 100%;
-    height: 5em;
+    height: 6em;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-corner:before {
@@ -86,10 +83,7 @@ h3 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url("../img/fondo1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #4B138A;
     z-index: -1;
     bottom: : 0;
     transform-origin: left bottom;
@@ -107,6 +101,19 @@ h3 {
 
 .name {
     padding-top: 13em;
+}
+
+.down {
+    color: #FFF;
+    position: absolute;
+    right: 1em;
+    top: 13.5em;
+    z-index: 5;
+    font-size: 3em;
+}
+
+.down:hover  {
+    color: #C7063D;
 }
 
 /* About */
