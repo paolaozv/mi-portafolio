@@ -16,6 +16,16 @@ var cargarPagina = function() {
     	}, 100);
 	}());
 
+    $(".smoove-izq").smoove({
+        offset  : "15%",
+        moveY   : "50px",
+    });
+
+    $(".smoove-der").smoove({
+        offset  : "15%",
+        moveY   : "50px",
+    });
+
     $("#menu").click(menu);
     $(".remove").click(menuOcultar);
     $("#liUno").click(menuOcultar);
