@@ -1,5 +1,9 @@
 @media (max-width: 767px) {
 
+	.nav-corner {
+		height: 5em;
+	}
+
 	.content-menu {
 		width: 100%;
 	}

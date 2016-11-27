@@ -16,14 +16,9 @@ var cargarPagina = function() {
     	}, 100);
 	}());
 
-    $(".smoove-izq").smoove({
+    $(".smoove").smoove({
         offset  : "15%",
-        moveY   : "50px",
-    });
-
-    $(".smoove-der").smoove({
-        offset  : "15%",
-        moveY   : "50px",
+        moveY   : "40px",
     });
 
     $("#menu").click(menu);
