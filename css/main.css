@@ -19,7 +19,7 @@ h3 {
 }
 
 .morado {
-    color: #4B138A;
+    color: #291558;
 }
 
 .blanco {
@@ -65,7 +65,7 @@ h3 {
 
 .header {
     position: relative;
-    background-color: #4B138A;
+    background-color: #291558;
     height: 100vh;
 }
 
@@ -83,7 +83,7 @@ h3 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #4B138A;
+    background-color: #291558;
     z-index: -1;
     bottom: : 0;
     transform-origin: left bottom;
@@ -185,7 +185,7 @@ h3 {
 }
 
 .habilidades .hvr-pop:hover {
-    background: #4B138A; 
+    background: #291558; 
     color: #FFF;
 }
 
@@ -215,7 +215,7 @@ h3 {
 }
 
 .boton {
-    background-color: #4B138A;
+    background-color: #291558;
     font-family: "Lato", sans-serif;
 }
 
@@ -246,7 +246,7 @@ h3 {
 }
 
 .code {
-    background-color: #4B138A;
+    background-color: #291558;
 }
 
 .code:hover {
@@ -259,7 +259,7 @@ h3 {
 
 .icon {
     font-size: 2.5em;
-    color: #4B138A;
+    color: #291558;
 }
 
 .absolute {
@@ -280,7 +280,7 @@ h3 {
 /* Footer */
 
 .contacto {
-    background: linear-gradient(45deg, rgba(75, 19, 138, 1) 0%, rgba(199, 6, 61, 1) 100%);
+    background:  linear-gradient(45deg, rgba(41, 21, 88, 1) 0%, rgba(41, 21, 88, 1) 43%, rgba(192, 39, 230, 1) 100%);
     position: relative;
     height: 48vh;
 }
@@ -359,7 +359,7 @@ canvas {
 .desplegable {
     height: 100vh;
     width: 100%;
-    background-color: #4B138A;
+    background-color: #291558;
     position: fixed;
     z-index: 5;
     top: 0;
