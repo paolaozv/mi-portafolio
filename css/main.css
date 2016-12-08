@@ -200,8 +200,12 @@ h3 {
 
 /* Proyectos */
 
-.projects {
+.height-web {
     height: 157vh;
+}
+
+.projects {
+    height: 205vh;
     width: 100%;
     position: relative;
 }

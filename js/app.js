@@ -47,12 +47,14 @@ var menu = function() {
 var javascript = function() {
     $("#htmlCss").hide("slow");
     $("#javascript").show("slow");
+    $("#projects").removeClass("height-web");
     $("#projects").removeClass("height");
 };
 
 var html = function() {
     $("#javascript").hide("slow");
     $("#htmlCss").show("slow");
+    $("#projects").addClass("height-web");
     $("#projects").addClass("height");
 };
 
