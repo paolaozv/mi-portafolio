@@ -142,7 +142,7 @@ h3 {
 
 .descrip {
     font-size: 1.4em;
-    padding-top: 0.8em;
+    padding-top: 4em;
 }
 
 .pd-l {
@@ -205,7 +205,7 @@ h3 {
 }
 
 .projects {
-    height: 205vh;
+    height: 180vh;
     width: 100%;
     position: relative;
 }
